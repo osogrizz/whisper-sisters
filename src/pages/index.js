@@ -7,28 +7,28 @@ import SEO from "../components/seo"
 
 const HomeWrapper = styled.div`
 /* background: linear-gradient(to right, #454B50 0%, #151B20 100%); */
-  margin: 140px 0;
   height: 100vh;
   overflow-x: hidden;
   margin: 0;
   padding: 0;
   /* color: #fff; */
   text-align: center;
-  
-  body {
-    
-  }
-  
-  
-  h1 {
-    /* font-family: 'Raleway', sans-serif !important;  */
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    margin: 140px 0 50px;
-    font-size: 2.6rem;
-    font-weight: 300;
-    letter-spacing: 12px;
-  }
+  font-family: 'Raleway', sans-serif !important; 
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+`
+
+const Container = styled.div`
+  margin: 140px 0 50px;
+  /* font-family: 'Raleway', sans-serif; */
+`
+
+const Title = styled.h1`
+  margin: 140px 0 50px;
+  font-size: 2.6rem;
+  font-weight: 300;
+  letter-spacing: 12px;
+  /* font-family: 'Raleway', sans-serif; */
 `
 
 const SubTitle = styled.h2`
@@ -69,9 +69,9 @@ const IndexPage = () => (
       <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
 
+        <Container>
 
-
-          <h1>WHISPER SISTERS</h1>
+          <Title>WHISPER SISTERS</Title>
           <SubTitle>Cocktails & Provisions</SubTitle>
           <SubTitleTwo>Cocktails and Dinner</SubTitleTwo>
           <InfoOne>Tues - Sat</InfoOne>
@@ -86,7 +86,7 @@ const IndexPage = () => (
           <InfoTwo>190 Kentucky St. Petaluma, CA 94952</InfoTwo>
           <InfoTwo>Please note We do not take reservations at this time</InfoTwo>
 
-
+        </Container>
 
       </Layout>
     </HomeWrapper>
