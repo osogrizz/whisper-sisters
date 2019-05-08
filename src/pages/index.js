@@ -21,7 +21,7 @@ const HomeWrapper = styled.div`
   
   
   h1 {
-    font-family: 'Raleway', sans-serif !important; 
+    /* font-family: 'Raleway', sans-serif !important;  */
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     margin: 140px 0 50px;
