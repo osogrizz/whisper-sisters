@@ -29,7 +29,7 @@ ul {
   }
 }
 a {
-  padding-top: 35px
+  padding-top: 35px;
   text-transform: uppercase;
   text-decoration: none;
   color: #999;
@@ -56,7 +56,7 @@ a {
 
 @media (max-width: 600px) {
   margin: 0;
-}
+
 `
 
 const activeLinkStyle = {
