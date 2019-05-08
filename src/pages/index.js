@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   padding: 0;
   /* color: #fff; */
   text-align: center;
-  font-family: 'Raleway', sans-serif;
+  /* font-family: 'Raleway', sans-serif !important; */
 `
 
 const Container = styled.div`
@@ -53,7 +53,7 @@ const InfoOne = styled.p`
 `
 
 const InfoTwo = styled.p`
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   font-size: 0.9rem;
   padding: 0;
   margin: 0;
@@ -62,7 +62,7 @@ const InfoTwo = styled.p`
 
 
 
-const IndexPage = ({ data }) => (
+const IndexPage = () => (
     <Wrapper> 
       <Layout>
         <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
