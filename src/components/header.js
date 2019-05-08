@@ -24,25 +24,20 @@ ul {
   justify-content: space-around;
   list-style: none;
   li {
-    padding: 35px;
-    &:hover {
-      /* border-top: 4px solid black; */
-      /* transition: 0.15s ease-in-out; */
-      a {
-        border-top: 4px solid transparent;
-        transition: hover 0.15s ease-in-out;
-        color: black;
-      }
-    }
+
 
   }
 }
 a {
+  padding-top: 35px
   text-transform: uppercase;
   text-decoration: none;
   color: #999;
   transition: hover 0.15s ease-in-out;
   &:hover {
+    padding-top: 31px;
+    border-top: 4px solid black; 
+    /* transition: 0.15s ease-in-out; */
     color: black;
     transition: 0.15s ease-in-out;
   }
@@ -52,27 +47,21 @@ a {
 @media (max-width: 800px) {
   font-size: 1rem;
   margin: 0 80px;
-  a {
-    margin-top: 37px;
-  }
 }
 
 @media (max-width: 750px) {
   font-size: .8rem;
   margin: 0 80px;
-  a {
-    padding-top: 40px;
-  }
 }
 
 @media (max-width: 600px) {
-  /* font-size: .8rem; */
   margin: 0;
 }
 `
 
 const activeLinkStyle = {
   borderTop: `4px solid black`,
+  paddingTop: `31px`,
   color: `black`,
 }
 
