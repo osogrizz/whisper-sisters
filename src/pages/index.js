@@ -13,7 +13,7 @@ const Wrapper = styled.div`
   padding: 0;
   /* color: #fff; */
   text-align: center;
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Raleway', sans-serif;
 `
 
 const Container = styled.div`
