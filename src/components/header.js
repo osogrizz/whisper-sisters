@@ -56,7 +56,7 @@ a {
 
 @media (max-width: 600px) {
   margin: 0;
-
+}
 `
 
 const activeLinkStyle = {
