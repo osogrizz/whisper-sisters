@@ -24,22 +24,20 @@ ul {
   justify-content: space-around;
   list-style: none;
   li {
-      border-top: 4px solid transparent;
-      transition: hover 0.15s ease-in-out;
+    padding: 35px;
     &:hover {
-      border-top: 4px solid black;
-      transition: 0.15s ease-in-out;
+      /* border-top: 4px solid black; */
+      /* transition: 0.15s ease-in-out; */
       a {
+        border-top: 4px solid transparent;
+        transition: hover 0.15s ease-in-out;
         color: black;
       }
     }
-    div {
-      padding-top: 35px;
-    }
+
   }
 }
 a {
-  padding-top: 35px;
   text-transform: uppercase;
   text-decoration: none;
   color: #999;
@@ -48,13 +46,14 @@ a {
     color: black;
     transition: 0.15s ease-in-out;
   }
+
 }
 
 @media (max-width: 800px) {
   font-size: 1rem;
   margin: 0 80px;
   a {
-    padding-top: 37px;
+    margin-top: 37px;
   }
 }
 
@@ -81,46 +80,40 @@ const Header = () => (
   <HeaderWrapper>
     <NavMenu>
       <ul>
-        <li>
-          <div>
-            <Link activeStyle={activeLinkStyle}
-              to="/">
-              Home
-            </Link>
-          </div>
-        </li>
-        <li>
-          <div>
-            <Link activeStyle={activeLinkStyle}
-              to="/menu">
+        <Link activeStyle={activeLinkStyle} 
+          to="/">
+          <li>
+            Home
+          </li>
+        </Link>
+
+        <Link activeStyle={activeLinkStyle}
+          to="/menu">
+            <li>
               Menu
+            </li>
             </Link>
-          </div>
-        </li>
-        <li>
-          <div>
-            <Link activeStyle={activeLinkStyle}
-              to="/coffee">
-              Coffee
-            </Link>
-          </div>
-        </li>
-        <li>
-          <div>
-            <Link activeStyle={activeLinkStyle}
+
+        <Link activeStyle={activeLinkStyle}
+          to="/coffee">
+          <li>
+            Coffee
+          </li>
+        </Link>
+
+        <Link activeStyle={activeLinkStyle}
               to="/gallery">
-              Gallery
-            </Link>
-          </div>
-        </li>
-        <li>
-          <div>
-            <Link activeStyle={activeLinkStyle}
+          <li>
+            Gallery
+          </li>
+        </Link>
+
+        <Link activeStyle={activeLinkStyle}
               to="/contact">
-              Contact Us
-            </Link>
-          </div>
-        </li>
+          <li>
+            Contact Us
+          </li>
+        </Link>
       </ul>
     </NavMenu>
   </HeaderWrapper>
