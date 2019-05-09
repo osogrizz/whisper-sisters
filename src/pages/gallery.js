@@ -168,7 +168,7 @@ const Gallery = ({ data }) => (
           <div>
             <a href="https://www.instagram.com/whispersisterspetaluma/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: `#fff`, fontSize: `26px`, margin: `10px 0 0` }} >{data.instaUserNode.username}</a>
 
-            <p style={{ color: `#fff`, fontSize: `16px`, margin: `10px 0` }} > Followers   {data.instaUserNode.edge_followed_by.count} | Following  {data.instaUserNode.edge_follow.count} | Post 
+            <p style={{ color: `#fff`, fontSize: `11px`, margin: `10px 0` }} > Followers   {data.instaUserNode.edge_followed_by.count} | Following  {data.instaUserNode.edge_follow.count} | Post 
             </p>
           </div>
         </InstaLabel>
