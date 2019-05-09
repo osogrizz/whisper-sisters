@@ -6,18 +6,17 @@ import styled from 'styled-components'
 import SEO from "../components/seo"
 
 const HomeWrapper = styled.div`
-  width: 100%;
+  text-align: center;
   color: #fff;
+  height: 100vh;
   overflow-x: hidden;
-  /* margin: 0; */
-  /* padding: 0; */
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  font-family: 'Raleway', sans-serif;
   `
 
 const Container = styled.div`
   margin: 140px auto 50px;
   text-align: center;
+  /* color: #fff; */
   
   h1 {
     /* font-family: 'Raleway', sans-serif;  */
