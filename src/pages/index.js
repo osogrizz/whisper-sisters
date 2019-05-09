@@ -15,17 +15,9 @@ const Wrapper = styled.div`
 
 const Container = styled.div`
   margin: 140px auto 50px;
-  text-align: center;
-
-  
+  text-align: center;  
 `
 
-const InfoTwo = styled.p`
-  font-size: 0.9rem;
-  padding: 0;
-  margin: 0;
-  letter-spacing: 2px;
-`
 
 
 
