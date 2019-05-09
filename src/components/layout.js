@@ -52,22 +52,7 @@ const LayoutWrapper = styled.div`
     font-variant-numeric: tabular-nums;
     letter-spacing: 1.5px;
   }
-  .info-two {
-    font-size: 0.9rem;
-    padding: 0;
-    margin: 0;
-    letter-spacing: 2px;
-  }
-
-  .coffee-text {
-    text-align: center !important;
-    font-size: 11px !important;
-    text-transform: uppercase !important;
-    line-height: 2 !important;
-    letter-spacing: 2px !important;
-    width: 390px !important;
-    margin: 40px auto !important;
-  }
+  
 `
 
 const Layout = ({ children }) => (
