@@ -22,13 +22,6 @@ const Container = styled.div`
       letter-spacing: 1px;
     }
 
-    h2 {
-      /* font-size: 1.2rem; */
-      /* line-height: 4px; */
-    }
-    h4 {
-      /* line-height: 4px; */
-    }
   }
 `
 

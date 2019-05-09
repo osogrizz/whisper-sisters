@@ -60,8 +60,8 @@ const SubMenuTitle = styled.h2`
 const MenuItems = styled.div`
   font-family: 'Raleway', sans-serif;
   display: grid;
-  grid-gap: 10px;
-  grid-template-columns: 25% 25%;
+  grid-gap: 12px;
+  grid-template-columns: 28% 28%;
   /* padding-left: 140px; */
   justify-content: center;
   text-align: left;
@@ -77,6 +77,14 @@ const MenuItems = styled.div`
   div {
     justify-content: right;
     /* text-align: left; */
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    width: 240px;
+    margin-bottom: 40px;
+    font-size: 12px;
+    letter-spacing: 2px;
   }
 `
 
@@ -143,67 +151,67 @@ render() {
               <div>
                 <ul>
                   <Item>Tea Service</Item>
-                  <ItemText>
+                  <p>
                     RYE, LAPSANG SOUCHONG, Cherry - Cacao bitters
-                  </ItemText>
+                  </p>
 
                   <Item>Cleo & Bill</Item>
-                  <ItemText>
+                  <p>
                     BRANDY, PINEAPPLE RUM, APEROL, BYRRH, STRAWBERRY-FENNEL SHRUB, LEMON, BITTERS
-                  </ItemText>
+                  </p>
                   
                   <Item>Salt of the Earth</Item>
-                  <ItemText>
+                  <p>
                     OLD TOM GIN, SFUMATO, GRAN CLASSICO, ORANGE BITTERS
-                  </ItemText>
+                  </p>
 
                   <Item>Driftwood</Item>
-                  <ItemText>
+                  <p>
                     AGRICOLE, COCCHI AMERICANO, APRICOT, LEMON, BITTERS
-                  </ItemText>
+                  </p>
 
                   <Item>Frothy by Nature</Item>
-                  <ItemText>
+                  <p>
                     MEZCAL, AMARO NONINO, PASSIONFRUIT, LEMON, EGG WHITE, BITTERS
-                  </ItemText>
+                  </p>
 
                   <Item>Winter Sweater</Item>
-                  <ItemText>
+                  <p>
                     RYE, SLOE GIN, CYNAR, CINNAMON, LEMON, CHOCOLATE BITTERS
-                  </ItemText>
+                  </p>
                 </ul>
               </div>
               <div>
                 <ul>
                   <Item>Oakland</Item>
-                  <ItemText>
+                  <p>
                     TEQUILA, MEZCAL, CINNAMON, PORT , GRAPEFRUIT, BANANA
-                  </ItemText>
+                  </p>
 
                   <Item>Texas Malone</Item>
-                  <ItemText>
+                  <p>
                     VODKA, FALERNUM, LO-FI GENTIAN, GRAPEFRUIT, LIME, PINK PEPPERCORN
-                  </ItemText>
+                  </p>
 
                   <Item>Torch Singer</Item>
-                  <ItemText>
+                  <p>
                     SIPSONG GIN, CARROT, BLANC VERMOUTH, CITRUS, CELERY BITTERS
-                  </ItemText>
+                  </p>
 
                   <Item>The Dutch Trader</Item>
-                  <ItemText>
+                  <p>
                     GENEVER, BOURBON, RAINWATER MADEiRA, LEMON, HONEY, ROSE
-                  </ItemText>
+                  </p>
 
                   <Item>Patagonian Negroni</Item>
-                  <ItemText>
+                  <p>
                     TRA KAL, SALERS, DOLIN BLANC, SALINE
-                  </ItemText>
+                  </p>
 
                   <Item>Rotating Clarified Milk Punch</Item>
-                  <ItemText>
+                  <p>
                     CLARIFIED NEGRONI PUNCH - GIN, CAMPARI, SWEET VERMOUTH, EARL GRAY, ORANGE, LEMON
-                  </ItemText>
+                  </p>
                 </ul>
               </div>
             </MenuItems>
