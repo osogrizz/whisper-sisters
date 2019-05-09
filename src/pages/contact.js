@@ -9,7 +9,7 @@ const Wrapper = styled.div`
   text-align: center;
   color: #fff;
   overflow-x: hidden !important;
-  /* height: 100vh !important; */
+  height: 100vh !important;
 `
 
 const Container = styled.div`
