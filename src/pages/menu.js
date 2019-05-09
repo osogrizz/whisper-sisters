@@ -11,7 +11,6 @@ const Wrapper = styled.div`
   color: #fff;
   height: 100vh;
   overflow-x: hidden;
-  font-family: 'Raleway', sans-serif;
 `
 
 const Container = styled.div`
@@ -33,7 +32,6 @@ const MenuTitle = styled.h4`
   font-size: 1.6rem;
   font-weight: 600;
   letter-spacing: 3px;
-  font-family: 'Raleway', sans-serif;
 `
 
 const NoteBene = styled.p`
@@ -43,7 +41,6 @@ const NoteBene = styled.p`
 `
 
 const SubMenu = styled.h4`
-  font-family: 'Raleway', sans-serif;
   font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 4px;
@@ -52,17 +49,14 @@ const SubMenu = styled.h4`
 `
 
 const SubMenuTitle = styled.h2`
-  font-family: 'Raleway', sans-serif;
   font-size: 1rem;
   letter-spacing: 3px;
 `
 
 const MenuItems = styled.div`
-  font-family: 'Raleway', sans-serif;
   display: grid;
-  grid-gap: 12px;
+  grid-gap: 102px;
   grid-template-columns: 28% 28%;
-  /* padding-left: 140px; */
   justify-content: center;
   text-align: left;
   text-transform: uppercase;
@@ -76,7 +70,7 @@ const MenuItems = styled.div`
   
   div {
     justify-content: right;
-    /* text-align: left; */
+
   }
   p {
     margin: 0;
@@ -85,6 +79,19 @@ const MenuItems = styled.div`
     margin-bottom: 40px;
     font-size: 12px;
     letter-spacing: 2px;
+  }
+
+  @media (max-width: 700px) {
+    text-align: center !important;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    justify-content: center;
+    li {
+      margin: 40px 0 10px;
+    }
+    p {
+      margin: 0 auto;
+    }
   }
 `
 
