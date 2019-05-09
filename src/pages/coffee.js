@@ -17,7 +17,7 @@ const Container = styled.div`
   @media (max-width: 600px) {
     margin: 80px 10px !important;
     h3 {
-      font-size: 1.6rem !important;
+      font-size: 1.5rem !important;
       letter-spacing: 2.6px !important;
     }
   }
