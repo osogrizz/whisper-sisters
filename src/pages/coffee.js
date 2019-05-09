@@ -16,14 +16,6 @@ const Wrapper = styled.div`
 const Container = styled.div`
   margin-top: 140px auto;
   margin-bottom: 50px !important;
-
-  /* text-align: center !important; */
-
-  @media (maxWidth: 760px) {
-    p {
-      width: 100% !important;
-    }
-  }
 `
 
 const Coffee = () => (
