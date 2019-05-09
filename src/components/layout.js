@@ -19,6 +19,7 @@ const LayoutWrapper = styled.div`
   padding: 0px 1.0875rem 1.45rem;
   text-align: center;
   height: 100vh;
+  color: #fff;
   font-family: 'Raleway', sans-serif !important;
 `
 

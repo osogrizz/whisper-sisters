@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 
 const HomeWrapper = styled.div`
   text-align: center;
-  color: #fff;
+  /* color: #fff; */
   height: 100vh;
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
@@ -17,21 +17,9 @@ const Container = styled.div`
   margin: 140px auto 50px;
   text-align: center;
   /* color: #fff; */
-  
-  h1 {
-    /* font-family: 'Raleway', sans-serif;  */
-  }
-  
-  h2 {
-    /* font-family: 'Raleway', sans-serif;  */
-  }
-  h4 {
-    /* font-family: 'Raleway', sans-serif;  */
-  }
-  `
+`
 
 const Title = styled.h1`
-  /* font-family: 'Raleway', sans-serif; */
   margin: 140px 0 50px;
   font-size: 2.6rem;
   font-weight: 300;
@@ -39,13 +27,11 @@ const Title = styled.h1`
   `
 
 const SubTitle = styled.h2`
-  /* font-family: 'Raleway', sans-serif; */
   font-size: 1.8rem;
   font-weight: 400;
   letter-spacing: 7px;
   `
 const SubTitleTwo = styled.h4`
-  /* font-family: 'Raleway', sans-serif; */
   font-size: 1.4rem;
   font-weight: 600;
   letter-spacing: 2px;
@@ -53,7 +39,6 @@ const SubTitleTwo = styled.h4`
 `
 
 const InfoOne = styled.p`
-  font-family: 'Raleway', sans-serif; 
   font-size: 20px;
   margin-bottom: 1rem;
   text-transform: uppercase;
