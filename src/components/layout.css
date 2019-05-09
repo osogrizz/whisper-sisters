@@ -5,6 +5,8 @@ html {
 }
 body {
   background: linear-gradient(to right, #454B50 0%, #151B20 100%);
+  background: -webkit-gradient(to right, #454B50 0%, #151B20 100%);
+  background: -moz-linear-gradient(to right, #454B50 0%, #151B20 100%);
   margin: 0;
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;

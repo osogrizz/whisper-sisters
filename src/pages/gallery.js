@@ -150,7 +150,7 @@ const InstaContent = styled.div`
     grid-template-columns: 80px 80px;
     justify-content: center;
      p {
-       font-size: 18px;
+       font-size: 16px;
      }
   }
 }
