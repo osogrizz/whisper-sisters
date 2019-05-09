@@ -44,8 +44,8 @@ const IndexPage = () => (
           <p>4 - 9 pm</p>
 
           <h4>Coffee Window</h4>
-          <p>Wed - Sun</p>
-          <p>7 - 11 am</p>
+          <h6>Wed - Sun</h6>
+          <h6>7 - 11 am</p>
 
           <InfoTwo>190 Kentucky St. Petaluma, CA 94952</InfoTwo>
           <InfoTwo>Please note We do not take reservations at this time</InfoTwo>

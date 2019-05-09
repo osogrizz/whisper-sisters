@@ -46,12 +46,18 @@ const LayoutWrapper = styled.div`
     text-transform: uppercase;
   }
 
-  p {
+  h6 {
     font-size: 20px;
     margin-bottom: 1rem;
     text-transform: uppercase;
     font-variant-numeric: tabular-nums;
     letter-spacing: 1.5px;
+  }
+  p{
+    font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
   }
 `
 
