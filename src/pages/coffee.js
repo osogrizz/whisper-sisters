@@ -17,16 +17,6 @@ const Container = styled.div`
   text-align: center !important;
 `
 
-const CoffeeText = styled.p`
-  text-align: center !important;
-  font-size: 11px !important;
-  text-transform: uppercase !important;
-  line-height: 2 !important;
-  letter-spacing: 2px !important;
-  width: 390px !important;
-  margin: 40px auto !important;
-`
-
 const Coffee = () => (
   <Wrapper>
     <Layout>

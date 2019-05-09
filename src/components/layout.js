@@ -71,7 +71,7 @@ const Layout = ({ children }) => (
         <Header />
         <LayoutWrapper>
           <main>{children}</main>
-          <footer style={{ margin: `80px  0 auto`, color: `#fff` }}>
+          <footer style={{ margin: `80px auto`, color: `#fff` }}>
             © {new Date().getFullYear()}, Built with
             {` `}
             <a href="https://www.gatsbyjs.org" style={{ color: `gray` }}>Gatsby</a>

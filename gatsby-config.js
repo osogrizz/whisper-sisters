@@ -35,6 +35,21 @@ module.exports = {
         icon: `src/images/drink-icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        type: `user-profile`,
+        username: `whispersisterspetaluma`,
+        // username: `osogrizz_`,
+      },
+    },
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        username: `whispersisterspetaluma`,
+        // username: `osogrizz_`,
+      },
+    },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
