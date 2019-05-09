@@ -20,38 +20,38 @@ const Container = styled.div`
   text-align: center;
   
   h1 {
-    font-family: 'Raleway', sans-serif; 
-    margin: 140px 0 50px;
-    font-size: 2.6rem;
-    font-weight: 300;
-    letter-spacing: 12px;
+    /* font-family: 'Raleway', sans-serif;  */
   }
   
   h2 {
-    font-family: 'Raleway', sans-serif; 
-    font-size: 1.8rem;
-    font-weight: 400;
-    letter-spacing: 7px;
+    /* font-family: 'Raleway', sans-serif;  */
   }
   h4 {
-    font-size: 1.4rem;
-    font-family: 'Raleway', sans-serif; 
-    font-weight: 600;
-    letter-spacing: 2px;
-    text-transform: uppercase;
+    /* font-family: 'Raleway', sans-serif;  */
   }
   `
 
 const Title = styled.h1`
   /* font-family: 'Raleway', sans-serif; */
+  margin: 140px 0 50px;
+  font-size: 2.6rem;
+  font-weight: 300;
+  letter-spacing: 12px;
   `
 
 const SubTitle = styled.h2`
   /* font-family: 'Raleway', sans-serif; */
+  font-size: 1.8rem;
+  font-weight: 400;
+  letter-spacing: 7px;
   `
 const SubTitleTwo = styled.h4`
   /* font-family: 'Raleway', sans-serif; */
-  `
+  font-size: 1.4rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+`
 
 const InfoOne = styled.p`
   font-family: 'Raleway', sans-serif; 
@@ -79,7 +79,7 @@ const IndexPage = () => (
 
         <Container>
 
-          <h1>WHISPER SISTERS</h1>
+          <Title>WHISPER SISTERS</Title>
           <SubTitle>Cocktails & Provisions</SubTitle>
           <SubTitleTwo>Cocktails and Dinner</SubTitleTwo>
           <InfoOne>Tues - Sat</InfoOne>
