@@ -21,10 +21,10 @@ const Container = styled.div`
 `
 
 const InfoTwo = styled.p`
-  font-size: 0.9rem !important;
-  padding: 0 !important;
-  margin: 0 !important;
-  letter-spacing: 2px !important;
+  font-size: 0.9rem;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2px;
 `
 
 
@@ -44,11 +44,11 @@ const IndexPage = () => (
           <p>4 - 9 pm</p>
 
           <h4>Coffee Window</h4>
-          <h6>Wed - Sun</h6>
-          <h6>7 - 11 am</p>
+          <p>Wed - Sun</p>
+          <p>7 - 11 am</p>
 
-          <InfoTwo>190 Kentucky St. Petaluma, CA 94952</InfoTwo>
-          <InfoTwo>Please note We do not take reservations at this time</InfoTwo>
+          <p className="info-two">190 Kentucky St. Petaluma, CA 94952</p>
+          <p className="info-two">Please note We do not take reservations at this time</p>
         </Container>
 
       </Layout>

@@ -17,7 +17,7 @@ const LayoutWrapper = styled.div`
   margin: 0 auto;
   max-width: 960px;
   padding: 0px 1.0875rem 1.45rem;
-  text-align: center;
+  text-align: center !important;
   height: 100vh;
   color: #fff;
   font-family: 'Raleway', sans-serif !important;
@@ -45,18 +45,28 @@ const LayoutWrapper = styled.div`
     letter-spacing: 2px;
     text-transform: uppercase;
   }
-  h6 {
+  p {
     font-size: 20px;
     margin-bottom: 1rem;
     text-transform: uppercase;
     font-variant-numeric: tabular-nums;
     letter-spacing: 1.5px;
   }
-  p {
-    font-size: 0.9rem !important;
-    padding: 0 !important;
-    margin: 0 !important;
+  .info-two {
+    font-size: 0.9rem;
+    padding: 0;
+    margin: 0;
+    letter-spacing: 2px;
+  }
+
+  .coffee-text {
+    text-align: center !important;
+    font-size: 11px !important;
+    text-transform: uppercase !important;
+    line-height: 2 !important;
     letter-spacing: 2px !important;
+    width: 390px !important;
+    margin: 40px auto !important;
   }
 `
 
