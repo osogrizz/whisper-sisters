@@ -2,6 +2,8 @@ html {
   font-family: 'Raleway', sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
 }
 body {
   background: linear-gradient(to right, #454B50 0%, #151B20 100%);

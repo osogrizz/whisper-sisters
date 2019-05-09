@@ -14,6 +14,22 @@ const Wrapper = styled.div`
 const Container = styled.div`
   margin: 140px auto 50px;
   text-align: center;  
+
+  @media (max-width: 600px) {
+    h1 {
+      font-size: 1.4rem;
+      transform: scale(1, 1.4);
+      letter-spacing: 1px;
+    }
+
+    h2 {
+      /* font-size: 1.2rem; */
+      /* line-height: 4px; */
+    }
+    h4 {
+      /* line-height: 4px; */
+    }
+  }
 `
 
 

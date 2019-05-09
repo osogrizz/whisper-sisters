@@ -9,7 +9,6 @@ const Wrapper = styled.div`
   text-align: center;
   color: #fff;
   overflow-x: hidden !important;
-  font-family: 'Raleway', sans-serif;
   /* height: 100vh !important; */
 `
 
@@ -19,7 +18,6 @@ const Container = styled.div`
 `
 
 const Title = styled.h2`
-  font-family: 'Raleway', sans-serif;
   font-size: 1.8rem;
   font-weight: 500;
   letter-spacing: 5px;
@@ -27,7 +25,6 @@ const Title = styled.h2`
 `
 
 const SubTitle = styled.p`
-  font-family: 'Raleway', sans-serif;
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 4px;
@@ -37,7 +34,6 @@ const SubTitle = styled.p`
 `
 
 const InfoText = styled.p`
-  font-family: 'Raleway', sans-serif;
   font-size: 0.9rem;
   padding: 0;
   margin: 0;
@@ -56,8 +52,6 @@ const FormContainer = styled.div`
   max-width: 500px;
   text-align: center;
   align-content: center;
-  /* background: gray; */
-  /* padding: 40px; */
 `
 
 const InputContainer = styled.div`
@@ -70,15 +64,9 @@ const InputStyles = styled.input`
   height: 40px;
   margin: 5px 0;
   border: none;
-  /* border: 2px solid black; */
   border-radius: 3px;
   padding: 10px;
   font-size: 16px;
-  /* background: #444; */
-
-  /* &:hover {
-    background: #777;
-  } */
 `
 const TextArea = styled.textarea`
   /* min-width: 500px; */
@@ -87,10 +75,6 @@ const TextArea = styled.textarea`
   border: none;
   border-radius: 3px;
   padding: 10px;
-  /* background: #444; */
-  /* &:hover {
-    background: #777;
-  } */
 `
 
 const Btn = styled.button`
@@ -154,6 +138,7 @@ const Contact = ({ data }) => (
 
 
         <form action="">
+
           <FormContainer>
             <InputContainer>
               <InputStyles type="text" name="fName" placeholder="First Name"required />
