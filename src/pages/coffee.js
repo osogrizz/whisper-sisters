@@ -35,7 +35,7 @@ const CoffeeText = styled.p`
   margin: 40px auto;
 `
 
-const Coffee = ({ data }) => (
+const Coffee = () => (
   <Wrapper>
     <Layout>
       <Container>
