@@ -15,10 +15,10 @@ const Container = styled.div`
   margin-top: 140px;
   
   @media (max-width: 600px) {
-    margin: 80px 10px;
+    margin: 80px 10px !important;
     h3 {
       font-size: 1.6rem !important;
-      letter-spacing: 2.6px;
+      letter-spacing: 2.6px !important;
     }
   }
 `
