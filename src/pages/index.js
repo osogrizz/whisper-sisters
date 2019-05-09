@@ -6,7 +6,6 @@ import styled from 'styled-components'
 import SEO from "../components/seo"
 
 const HomeWrapper = styled.div`
-  background: linear-gradient(to right, #454B50 0%, #151B20 100%);
   width: 100%;
   color: #fff;
   overflow-x: hidden;
