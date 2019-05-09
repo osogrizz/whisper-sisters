@@ -9,16 +9,14 @@ const Wrapper = styled.div`
   color: #fff;
   height: 100vh;
   overflow-x: hidden;
-  font-family: 'Raleway', sans-serif;
-`
+  `
 
 const Container = styled.div`
-  margin-top: 140px auto;
-  margin-bottom: 50px !important;
-
+  margin-top: 140px;
+  
   @media (max-width: 600px) {
     margin: 80px 10px;
-  h3 {
+    h3 {
       font-size: 1.6rem !important;
       letter-spacing: 2.6px;
     }
