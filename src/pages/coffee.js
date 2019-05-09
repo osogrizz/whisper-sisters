@@ -10,11 +10,20 @@ const Wrapper = styled.div`
   height: 100vh;
   overflow-x: hidden;
   font-family: 'Raleway', sans-serif;
+  margin: 0 auto;
 `
 
 const Container = styled.div`
-  margin: 140px 0 50px !important;
-  text-align: center !important;
+  margin-top: 140px auto;
+  margin-bottom: 50px !important;
+
+  /* text-align: center !important; */
+
+  @media (maxWidth: 760px) {
+    p {
+      width: 100% !important;
+    }
+  }
 `
 
 const Coffee = () => (
