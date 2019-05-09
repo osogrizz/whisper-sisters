@@ -10,7 +10,7 @@ const Wrapper = styled.div`
   text-align: center;
   height: 100vh;
   overflow-x: hidden;
-  font-family: 'Raleway', sans-serif !important;
+  /* font-family: 'Raleway', sans-serif !important; */
   `
 
 const Container = styled.div`
@@ -35,7 +35,7 @@ const Container = styled.div`
   `
 
 const InstaLabel = styled.div`
-  font-family: 'Raleway', sans-serif !important;
+  /* font-family: 'Raleway', sans-serif !important; */
   display: grid;
   width: 960px;
   margin: 0 auto;
@@ -86,7 +86,7 @@ const TheGrid = styled.div`
   `
 
 const Item = styled.div`
-  font-family: 'Raleway', sans-serif !important;
+  /* font-family: 'Raleway', sans-serif !important; */
   background: #fff !important;
   position: relative;
   width: 250px;
@@ -111,7 +111,7 @@ const Item = styled.div`
   `
 
 const InstaContent = styled.div`
-  font-family: 'Raleway', sans-serif !important;
+  /* font-family: 'Raleway', sans-serif !important; */
   top: 0; 
   margin: 40px auto 0;
   position: absolute;
@@ -149,6 +149,9 @@ const InstaContent = styled.div`
     display: grid;
     grid-template-columns: 80px 80px;
     justify-content: center;
+     p {
+       font-size: 18px;
+     }
   }
 }
 `
@@ -178,28 +181,20 @@ const Gallery = ({ data }) => (
 
         <TheGrid>
           { 
-            // check for mediaType ie video or image.
-  
             
             data.allInstaNode.edges.map( item => 
-
-              // Check for mediaType here.
-
-              
-                <Item key={item.node.id}>
-                    <Img  fluid={item.node.localFile.post.fluid} style={{ width: `250px` }} />  
-                    <InstaContent>
-                      <p className="comments">{item.node.caption}</p>
-                      <div>
-                        <p><span role="img" aria-label="comment" >💬</span> {item.node.comments}</p>
-                        <p><span role="img" aria-label="likes" >♡</span> {item.node.likes}</p>
-                      </div>
-                    </InstaContent>
-                </Item>
-
-              
-
-            
+            // check for mediaType ie video or image.
+  
+            <Item key={item.node.id}>
+                <Img  fluid={item.node.localFile.post.fluid} style={{ width: `250px` }} />  
+                <InstaContent>
+                  <p className="comments">{item.node.caption}</p>
+                  <div>
+                    <p><span role="img" aria-label="comment" >💬</span> {item.node.comments}</p>
+                    <p><span role="img" aria-label="likes" >♡</span> {item.node.likes}</p>
+                  </div>
+                </InstaContent>
+            </Item>
 
           )}
         </TheGrid>
