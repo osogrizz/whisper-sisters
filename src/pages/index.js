@@ -6,47 +6,56 @@ import styled from 'styled-components'
 import SEO from "../components/seo"
 
 const HomeWrapper = styled.div`
-/* background: linear-gradient(to right, #454B50 0%, #151B20 100%); */
-  height: 100vh;
+  background: linear-gradient(to right, #454B50 0%, #151B20 100%);
+  width: 100%;
+  color: #fff;
   overflow-x: hidden;
-  margin: 0;
-  padding: 0;
-  /* color: #fff; */
-  text-align: center;
-  font-family: 'Raleway', sans-serif !important; 
+  /* margin: 0; */
+  /* padding: 0; */
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-`
+  `
 
 const Container = styled.div`
-  margin: 140px 0 50px;
-  /* font-family: 'Raleway', sans-serif; */
-`
+  margin: 140px auto 50px;
+  text-align: center;
+  
+  h1 {
+    font-family: 'Raleway', sans-serif; 
+    margin: 140px 0 50px;
+    font-size: 2.6rem;
+    font-weight: 300;
+    letter-spacing: 12px;
+  }
+  
+  h2 {
+    font-family: 'Raleway', sans-serif; 
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 7px;
+  }
+  h4 {
+    font-size: 1.4rem;
+    font-family: 'Raleway', sans-serif; 
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  `
 
 const Title = styled.h1`
-  margin: 140px 0 50px;
-  font-size: 2.6rem;
-  font-weight: 300;
-  letter-spacing: 12px;
   /* font-family: 'Raleway', sans-serif; */
-`
+  `
 
 const SubTitle = styled.h2`
   /* font-family: 'Raleway', sans-serif; */
-  font-size: 1.8rem;
-  font-weight: 400;
-  letter-spacing: 7px;
-`
+  `
 const SubTitleTwo = styled.h4`
   /* font-family: 'Raleway', sans-serif; */
-  font-size: 1.4rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-`
+  `
 
 const InfoOne = styled.p`
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Raleway', sans-serif; 
   font-size: 20px;
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -55,7 +64,7 @@ const InfoOne = styled.p`
 `
 
 const InfoTwo = styled.p`
-  /* font-family: 'Raleway', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   font-size: 0.9rem;
   padding: 0;
   margin: 0;
@@ -71,7 +80,7 @@ const IndexPage = () => (
 
         <Container>
 
-          <Title>WHISPER SISTERS</Title>
+          <h1>WHISPER SISTERS</h1>
           <SubTitle>Cocktails & Provisions</SubTitle>
           <SubTitleTwo>Cocktails and Dinner</SubTitleTwo>
           <InfoOne>Tues - Sat</InfoOne>
