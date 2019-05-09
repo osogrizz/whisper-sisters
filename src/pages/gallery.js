@@ -153,9 +153,7 @@ const InstaContent = styled.div`
        font-size: 16px;
      }
   }
-}
 `
-
 
 const Gallery = ({ data }) => (
   <Wrapper>
