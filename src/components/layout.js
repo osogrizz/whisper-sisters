@@ -52,7 +52,6 @@ const LayoutWrapper = styled.div`
     font-variant-numeric: tabular-nums;
     letter-spacing: 1.5px;
   }
-  
 `
 
 const Layout = ({ children }) => (
@@ -72,9 +71,9 @@ const Layout = ({ children }) => (
         <LayoutWrapper>
           <main>{children}</main>
           <footer style={{ margin: `120px auto`, color: `#fff` }}>
-            © {new Date().getFullYear()}, Built with
+            © {new Date().getFullYear()}, A
             {` `}
-            <a href="https://www.gatsbyjs.org" style={{ color: `gray` }}>Gatsby</a>
+            <a href="https://www.leo-torres.tech/" style={{ color: `gray` }}> BobaBird </a>Website
           </footer>
         </LayoutWrapper>
       </>

@@ -1,4 +1,5 @@
 import React from "react"
+
 import Layout from "../components/layout"
 import styled from 'styled-components'
 import SEO from "../components/seo"
@@ -23,30 +24,7 @@ const Container = styled.div`
 
   }
 
-  .socials {
-    display: grid;
-    grid-template-columns: 120px 120px;
-    justify-content: center;
-    margin: 80px auto;
-    div {
-      display: grid;
-      margin: 10px auto;
-      padding: 22px;
-      text-align: center;
-      border: 2px solid #fff;
-      border-radius: 50%;
-      height: 80px;
-      width: 80px;
-    }
-    #facebook {
-      color: #fff;
-      font-size: 30px;
-    }
-    #instagram {
-      color: #fff;
-      font-size: 30px;
-    }
-  }
+  
 
   @media (max-width: 600px) {
     h1 {

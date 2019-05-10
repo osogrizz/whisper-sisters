@@ -32,6 +32,37 @@ body {
   margin: 40px auto !important;
 }
 
+.socials {
+  display: grid;
+  grid-template-columns: 120px 120px;
+  justify-content: center;
+  margin: 80px auto;
+  
+}
+
+.socials div {
+  display: grid;
+  margin: 10px auto;
+  padding: 22px;
+  text-align: center;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  
+}
+
+#facebook {
+  color: #fff;
+  font-size: 30px;
+}
+
+#instagram {
+  color: #fff;
+  font-size: 30px;
+}
+
+
 article,
 aside,
 details,
