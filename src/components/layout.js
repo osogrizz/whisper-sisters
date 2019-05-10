@@ -29,9 +29,11 @@ const LayoutWrapper = styled.div`
     letter-spacing: 12px !important;
   }
   h2 {
-    font-size: 1.8rem;
+    font-size: 1.7rem;
     font-weight: 400;
-    letter-spacing: 7px;
+    letter-spacing: 12px;
+    text-transform: uppercase;
+    transform: scale(.8, 1);
   }
   h3 {
     font-size: 1.8rem;
@@ -42,8 +44,9 @@ const LayoutWrapper = styled.div`
   h4 {
     font-size: 1.4rem;
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 9px;
     text-transform: uppercase;
+    transform: scale(.8, 1);
   }
   p {
     font-size: 20px;
@@ -71,9 +74,9 @@ const Layout = ({ children }) => (
         <LayoutWrapper>
           <main>{children}</main>
           <footer style={{ margin: `120px auto`, color: `#fff` }}>
-            © {new Date().getFullYear()}, A
+            © {new Date().getFullYear()}, All Rights Reserved, Whispers Sisters Petaluma.
             {` `}
-            <a href="https://www.leo-torres.tech/" style={{ color: `gray` }}> BobaBird </a>Website
+            A <a href="https://www.leo-torres.tech/" style={{ color: `gray` }}> BobaBird </a> Website
           </footer>
         </LayoutWrapper>
       </>

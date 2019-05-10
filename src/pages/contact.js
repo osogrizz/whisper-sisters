@@ -32,7 +32,6 @@ const SubTitle = styled.p`
   letter-spacing: 4px;
   margin-bottom: 1rem;
   text-transform: uppercase;
-  /* font-variant-numeric: tabular-nums; */
 `
 
 const InfoText = styled.p`
@@ -45,15 +44,6 @@ const InfoText = styled.p`
 const Section = styled.div`
   margin-bottom: 80px;
 
-`
-
-const FormContainer = styled.div`
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 1fr;
-  max-width: 500px;
-  text-align: center;
-  align-content: center;
 `
 
 const InputContainer = styled.div`
@@ -77,44 +67,6 @@ const TextArea = styled.textarea`
   border: none;
   border-radius: 3px;
   padding: 10px;
-`
-
-const Btn = styled.button`
-    margin: 50px auto;
-    border-radius: 4px;
-    border: 2px solid #6a6a6a !important;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 45px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    outline: none;
-    width: 180px;
-    background: #2d333d;
-    color: #6a6a6a;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.18s ease-in-out;
-
-    &:active {
-      background-color: red !important;
-      border: 2px solid red !important;
-      transition: all 0.00001s ease-out !important;
-    }
-  
-  &:hover {
-    cursor: pointer;
-    color: #323944;
-    background-color: #6a6a6a;
-    letter-spacing: 1.2rem;
-    font-weight: 500;
-    font-size: 18px;
-    padding-left: 25px;
-    transition: all 0.25s ease-in-out;
-    &:after {
-
-    }
-  }
 `
 
 const Contact = ({ data }) => (
@@ -141,7 +93,7 @@ const Contact = ({ data }) => (
 
         <form action="">
 
-          <FormContainer>
+          <div className="form-container">
             <InputContainer>
               <InputStyles type="text" name="fName" placeholder="First Name"required />
               <InputStyles type="text" name="lName" placeholder="Last Name" required />
@@ -154,9 +106,9 @@ const Contact = ({ data }) => (
 
             <TextArea name="message" id="" cols="30" rows="6" placeholder="Message" ></TextArea>
 
-            <Btn>Send</Btn>
+            <button className="Btn">Send</button>
 
-          </FormContainer>
+          </div>
         </form>
 
       </Container>
