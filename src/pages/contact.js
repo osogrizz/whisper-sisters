@@ -12,6 +12,8 @@ const Wrapper = styled.div`
   height: 100vh !important;
 `
 
+// Need to move styles to layout
+
 const Container = styled.div`
   margin: 140px 0 50px;
   text-align: center;

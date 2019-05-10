@@ -10,8 +10,9 @@ const Wrapper = styled.div`
   text-align: center;
   height: 100vh;
   overflow-x: hidden;
-  /* font-family: 'Raleway', sans-serif !important; */
-  `
+`
+
+// Need to move styles to layout
 
 const Container = styled.div`
   display: grid;

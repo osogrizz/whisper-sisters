@@ -3,6 +3,8 @@ import Layout from "../components/layout"
 import styled from 'styled-components'
 import SEO from "../components/seo"
 
+import { FaFacebookF, FaInstagram } from 'react-icons/fa';
+
 const Wrapper = styled.div`
   text-align: center;
   color: #fff;
@@ -15,11 +17,41 @@ const Container = styled.div`
   margin: 140px auto 50px;
   text-align: center;  
 
+  h1 {
+    transform: scale(1, 1.4);
+    letter-spacing: 20px !important;
+
+  }
+
+  .socials {
+    display: grid;
+    grid-template-columns: 120px 120px;
+    justify-content: center;
+    margin: 80px auto;
+    div {
+      display: grid;
+      margin: 10px auto;
+      padding: 22px;
+      text-align: center;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      height: 80px;
+      width: 80px;
+    }
+    #facebook {
+      color: #fff;
+      font-size: 30px;
+    }
+    #instagram {
+      color: #fff;
+      font-size: 30px;
+    }
+  }
+
   @media (max-width: 600px) {
     h1 {
       font-size: 1.4rem;
       transform: scale(1, 1.4);
-      letter-spacing: 1px;
     }
 
   }
@@ -48,6 +80,13 @@ const IndexPage = () => (
 
           <p className="info-two">190 Kentucky St. Petaluma, CA 94952</p>
           <p className="info-two">Please note We do not take reservations at this time</p>
+
+          <div className="socials">
+            <div><a href="https://www.facebook.com/whispersisterspetaluma/" target="_blank" rel="noopener noreferrer"><FaFacebookF id="facebook"/></a>
+            </div>
+            <div><a href="https://www.instagram.com/whispersisterspetaluma/?hl=en" target="_blank" rel="noopener noreferrer"><FaInstagram id="instagram"/> </a>
+            </div>
+          </div>
         </Container>
 
       </Layout>

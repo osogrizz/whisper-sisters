@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Whisper Sisters`,
-    description: `A cocktail bar`,
+    description: `Whisper SIsters Cocktails and Provisions Petaluma, CA.`,
     author: `Leo Torres @leo-torres.tech`,
   },
   plugins: [
