@@ -43,10 +43,9 @@ const InstaLabel = styled.div`
   grid-template-columns: 80px 300px;
   text-align: left;
   /* text-align: left;   */
-  /* display: flex;
-  justify-self: center;
-  text-align: center; */
-  margin: 30px auto;
+  /* display: flex; */
+  /* justify-self: center; */
+  
   div img {
     width: 70px;
     border-radius: 50%;
@@ -59,7 +58,15 @@ const InstaLabel = styled.div`
   }
   
   @media (max-width: 1100px) {
-    justify-content: center;
+    grid-template-columns: 80px 1fr;
+    width: 325px;
+    
+    a {
+      font-size: 18px !important;
+    }
+    p {
+      font-size: 8px !important;
+    }
   }
   `
 
@@ -176,7 +183,11 @@ const Gallery = ({ data }) => (
         </InstaLabel>
           
           <hr style={{ marginBottom: `120px` }}/>
-
+          
+          {
+            console.log(data.instaUserNode)
+            
+          }
 
         <TheGrid>
           { 

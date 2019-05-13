@@ -56,6 +56,14 @@ module.exports = {
         // username: `osogrizz_`,
       },
     },
+    // {
+    //   resolve: `gatsby-source-instagram`,
+    //   options: {
+    //     username: `osogrizz_`,
+    //     access_token: "3a6645a5ae9b4a9386d7b03fb70e935a",
+    //     instagram_id: "b2911f77bb38477d9a54b9fcbc81d575",
+    //   },
+    // },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
