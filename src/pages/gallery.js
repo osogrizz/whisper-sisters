@@ -177,19 +177,19 @@ const Gallery = ({ data }) => (
           <div>
             <a href="https://www.instagram.com/whispersisterspetaluma/?hl=en" target="_blank" rel="noopener noreferrer" style={{ color: `#fff`, fontSize: `26px`, margin: `10px 0 0` }} >{data.instaUserNode.username}</a>
 
-            <p style={{ color: `#fff`, fontSize: `11px`, margin: `10px 0` }} > Followers   {data.instaUserNode.edge_followed_by.count} | Following  {data.instaUserNode.edge_follow.count} | Post 
+            <p style={{ color: `#fff`, fontSize: `11px`, margin: `10px 0` }} > Followers   {data.instaUserNode.edge_followed_by.count} | Following  {data.instaUserNode.edge_follow.count} 
             </p>
           </div>
         </InstaLabel>
           
-          <hr style={{ marginBottom: `120px` }}/>
+        <hr style={{ marginBottom: `120px` }}/>
           
+        <TheGrid>
+
           {
-            console.log(data.instaUserNode)
-            
+            console.log()
           }
 
-        <TheGrid>
           { 
             
             data.allInstaNode.edges.map( item => 
@@ -201,7 +201,7 @@ const Gallery = ({ data }) => (
                   <p className="comments">{item.node.caption}</p>
                   <div>
                     <p><span role="img" aria-label="comment" >💬</span> {item.node.comments}</p>
-                    <p><span role="img" aria-label="likes" >♡</span> {item.node.likes}</p>
+                    <p><span role="img" aria-label="likes" >❤️</span> {item.node.likes}</p>
                   </div>
                 </InstaContent>
             </Item>

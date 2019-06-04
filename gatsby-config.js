@@ -60,10 +60,10 @@ module.exports = {
     //   resolve: `gatsby-source-instagram`,
     //   options: {
     //     username: `osogrizz_`,
-    //     access_token: "3a6645a5ae9b4a9386d7b03fb70e935a",
-    //     instagram_id: "b2911f77bb38477d9a54b9fcbc81d575",
+    //     access_token: `936619743392459|3cdb3f896252a1db29679cb4554db266`,
+    //     instagram_id: `4d8ae44e9ad44defa2dafe1a27007ab8`,
     //   },
-    // },
+    // }, 
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
@@ -73,3 +73,5 @@ module.exports = {
 require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 })
+
+// http://your-redirect-uri?error=access_denied&error_reason=user_denied&error_description=The+user+denied+your+request
