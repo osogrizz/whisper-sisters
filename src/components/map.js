@@ -47,7 +47,7 @@ const MapCards = styled.div`
 
 
 const Map = ( ) => (
-      // Important! Always set the container height explicitly
+  // Important! Always set the container height explicitly
   <Wrapper>
     <MapContainer>
       <MapCards>
